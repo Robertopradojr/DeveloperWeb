@@ -1,0 +1,117 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+
+div.container{
+    margin: 0px auto;
+    background-color:rgba(252, 86, 3);
+    width: 90%;
+    height: 80px;
+
+}
+.titulologo{
+    padding-top:10px ;
+    font-size: 26px;
+    letter-spacing: 7px;
+    text-align: center;
+    color: white;
+}
+
+ul{ margin-top: 20px;
+    text-align: center;}
+    
+ul li{
+    display: inline;
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+li a:hover{
+    color: red;
+    background-color: white;
+
+}
+*{
+    margin: 0px;}
+
+.entretenimento{
+    margin: 0px 0px 0px 5%;
+    background-color: rgb(189, 185, 185);
+    width: 90%;
+                }
+
+.article{ 
+    margin-top: 10px;
+    width: 40%;
+}
+.article img{width: 100%;}
+
+.tempo{color: white; 
+        background-color:rgba(252, 86, 3);
+        display: block;
+        text-align: center; }
+h2{color: white; 
+    background-color:rgba(252, 86, 3);
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.tipo{letter-spacing: 7px;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;
+        color: white;
+        margin:2px}
+
+a.leiamais{list-style-type: none;
+    text-decoration: none;
+    color: white;
+    background-color:rgba(252, 86, 3)
+
+}
+.centralizarleiamais{
+    text-align: right;
+}
+.container2{display: flex;
+            flex-direction:row;
+            flex-wrap:wrap ;
+            justify-content:space-between;}
+
+.imagem2{margin-bottom: 17px;
+    width: 100%;
+}
+#mudarcordefundo{border: none;
+                font-size: 20px;
+                text-align: center;
+                width: 100%;
+                margin: 10px 0px 20px;
+                height: 40px;
+                color: white;
+                background-color:rgba(252, 86, 3);
+                font-weight: 900;
+                cursor: pointer;
+                
+
+
+}
+#mudarcordefundo:hover{color:red;
+                        background-color: white;
+
+}
+
+.rodape{    letter-spacing: 7px;
+            font-size: 20px;
+            letter-spacing: 7px;
+            text-align: center;
+            color: white;
+            margin:100px 0px 20px;
+            padding: 10px;
+            background-color:rgba(252, 86, 3);
+}
