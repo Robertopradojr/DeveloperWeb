@@ -1,0 +1,249 @@
+
+
+@font-face{
+    font-family:viking ;
+    src: url('./fonts/VIKING-N.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@media (max-width:767px){
+    #paginainicial
+ {
+     background-image: url(./imagens/Camelot.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height: 140vw;
+ 
+ 
+ 
+ }
+    .camelotnome{
+
+        position: relative;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+        top:100%;
+    
+        
+    }
+}
+
+
+
+@media (min-width:768px){
+   #paginainicial
+{
+    background-image: url(./imagens/Camelot.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 120vw;
+    
+
+
+}
+    .camelotnome{
+
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    top:80%;
+
+    
+}
+}
+@media (min-width:992px){
+    #paginainicial
+ {
+     background-image: url(./imagens/Camelot.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height: 100vw;
+}
+    .camelotnome{
+
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    top:50%;
+
+    
+}
+}
+@media (min-width:1200px){
+    #paginainicial
+ {
+     background-image: url(./imagens/Camelot.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height: 50vw;
+}
+    .camelotnome{
+
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    top:50%;
+
+    
+}
+}
+
+@media (min-width:5000px){
+    #paginainicial
+ {
+     background-image: url(./imagens/Camelot.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height: 50vw;
+}
+    .camelotnome{
+
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    top:50%;
+
+    
+}
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: viking;
+    background-color: #243e25;
+    
+
+}
+input, button, textarea{
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    height:50vw;
+
+}
+textarea{
+    margin-top: 5px;
+    resize:none;
+    width: 105px;
+    height: 20px;
+}
+
+
+
+
+#botaologin{
+    cursor: pointer;
+    margin: 10px 10px 0px 0px;
+    padding: 0px;
+
+
+}
+#botaologin img{
+    height: 40px;
+    }
+
+nav.superior{ 
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+.camelotnome span {
+    padding: 18px;
+    font-size: 10px;
+    letter-spacing: 10px;
+    background-color:rgba(111, 111, 111, 0.3)
+    
+}
+.camelotnome span a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+
+.cabeçalhoinicial li{ 
+    list-style-type: none;
+    margin: 0px;    
+
+}
+.cabeçalhoinicial li a{
+    width: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: black;
+    font-size: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;}
+#menu{
+    margin-left: 10px;
+}
+    
+   
+    
+.cabeçalhoinicial li a:hover{
+    background-color: red;
+}
+
+
+.cabeçalhoinicial ul{
+    display: none;
+    position: absolute;
+}
+.cabeçalhoinicial li:hover ul{
+    display: block;
+}
+ul.submenu li a{
+    padding: 10px;
+}
+.submenu{
+    list-style-type: none;
+    text-decoration: none;
+}
+.login{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+
+}
+
+
+.login li input{
+    width: 105px;
+    margin-top: 0px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+}
+.login li input#entrar,
+.login li input#cancelar{
+    background-color: aqua;
+    font-weight: 900;
+
+}
+.login li input#name{
+    margin-top: 10px;
+}
+#entrar, #cancelar{
+    width: 107px;
+}
+input:focus, textarea:focus{
+    outline-color: aqua;
+}
