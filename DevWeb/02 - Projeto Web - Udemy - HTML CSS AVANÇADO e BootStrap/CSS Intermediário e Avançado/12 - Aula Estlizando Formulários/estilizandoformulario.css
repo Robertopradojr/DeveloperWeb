@@ -1,0 +1,27 @@
+
+body{font-family: times, Helvetica, sans-serif, serif;}
+
+fieldset.numero1 {background: pink;
+					padding:15px;
+					border: solid 1px gray;
+					margin: 15px 0px;
+					}
+
+
+legend{font-weight: bold;}
+
+label{display: block;
+		cursor: pointer;}
+
+input{width: 200px}
+
+
+textarea{width: 250px;
+		height:100px}
+
+fieldset{background: pink;
+		margin: 15px 0px}
+
+/*	 input[type="radio"] para um tipo */
+input.radio{width: auto}
+

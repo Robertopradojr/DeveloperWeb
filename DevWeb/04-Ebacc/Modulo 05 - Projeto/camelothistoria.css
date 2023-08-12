@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:viking ;
+    src: url('./fonts/VIKING-N.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (max-width:767px){
+    .seção1
+ {
+            margin-top: 15px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem1{
+            width: 100%;
+            height: 400px;
+}
+    .imagem1 img{
+            width: 100%;
+            height: 100%;
+}
+    .seçãosobrepersonagens{
+            width: 100%;
+}
+    .nomepersonagens{
+            font-size: 14px;
+            text-align: center;
+}
+    .conteudo p{
+            font-size: 12px;
+            color: black;
+            margin-left: 10px;
+}
+    .titulopersonagem1{
+            margin-bottom: 50px;
+}
+    .seção2{ 
+            margin-top:100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem2{
+            width: 100%;
+            height: 100%;
+}
+    .imagem2 img{
+            width: 100%;
+            height: 100%;
+}
+    .seção3{ 
+            margin-top:100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem3{
+            width: 100%;
+            height: 100%;
+}
+    .imagem3 img{
+            width: 100%;
+            height: 100%;
+}
+    .seção4{ 
+            margin-top:100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem4{
+            width: 100%;
+            height: 100%;
+}
+    .imagem4 img{
+            width: 100%;
+            height: 100%;
+}
+    .opções{
+            display: flex;
+            justify-content:space-around;
+            align-items: left;
+            flex-direction: column;
+}
+    #container3{
+            width:100%;
+            margin-top: 200px;
+}
+}
+@media (min-width:768px){
+    .seção1
+{
+            margin-top: 15px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem1{
+            width: 100%;
+            height: 400px;
+}
+    .imagem1 img{
+            width: 100%;
+            height: 100%;
+}
+    .seçãosobrepersonagens{
+            width: 100%;
+}
+    .nomepersonagens{
+            font-size: 14px;
+            text-align: center;
+}
+    .conteudo p{
+            font-size: 12px;
+            color: black;
+            margin-left: 10px;
+}
+    .titulopersonagem1{
+            margin-bottom: 50px;
+}
+    .seção2{ 
+            margin-top:100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: row;
+}
+    .imagem2{
+            width: 100%;
+            height: 100%;
+}
+    .imagem2 img{
+            width: 100%;
+            height: 100%;
+}
+    .seção3{ 
+            margin-top:100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem3{
+            width: 100%;
+            height: 100%;
+}
+    .imagem3 img{
+            width: 100%;
+            height: 100%;
+}
+    .seção4{ 
+            margin-top:100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            width: 90%;
+            flex-direction: column;
+}
+    .imagem4{
+            width: 100%;
+            height: 100%;
+}
+    .imagem4 img{
+            width: 100%;
+            height: 100%;
+}
+    .opções{
+            display: flex;
+            justify-content:space-around;
+            align-items: left;
+            flex-direction: column;
+}
+    #container3{
+            width:100%;
+            margin-top: 200px;
+}
+    
+        
+}
+@media (min-width:1025px){
+    .seção1
+{
+            margin-top: 25px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction: row;
+            width: 95%;
+            max-width: 3000px;
+
+
+}
+    .imagem1{
+            width: 60%;
+            height: 600px;
+}
+    .imagem1 img{
+            width: 100%;
+            height: 100%;
+}
+    .seçãosobrepersonagens{
+            width: 30%;
+            height: 500px;
+}
+    .nomepersonagens{
+            font-size: 14px;
+            text-align: left;
+            padding-left: 20px;
+}
+    .conteudo p{
+            font-size: 12px;
+            color: black;
+}
+    .titulopersonagem1{
+            margin-bottom: 80px;
+}
+    .seção2{ 
+            margin-top: 100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction:row;
+            width: 95%;
+            max-width: 3000px;
+}        
+    .imagem2{
+            width: 60%;
+            height: 600px;
+}
+
+    .imagem2 img{
+            width: 100%;
+            height: 100%;
+}
+    .seção3{ 
+            margin-top: 100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction:row;
+            width: 95%;
+            max-width: 3000px;
+}
+    .imagem3{
+            width: 60%;
+            height: 600px;
+}
+    .imagem3 img{
+            width: 100%;
+            height: 100%;
+}
+    .seção4{ 
+            margin-top: 100px;
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction:row;
+            width: 95%;
+            max-width: 3000px;
+}
+    .imagem4{
+            width: 60%;
+            height: 600px;
+}
+    .imagem4 img{
+            width: 100%;
+            height: 100%;
+}
+    .opções{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            flex-direction: row;
+}
+
+    #container3{
+            width:90%;
+            margin-top: 200px;
+}
+    
+}
+
+body{
+    font-family: viking;
+}
+
+
+nav.superior{ 
+    height: 140px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+
+}
+#botaologin{
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+    margin-right: 20px;
+}
+#botaologin img{
+    height: 40px;
+}
+.cabeçalhoinicial{
+    position: relative;
+    bottom:40px;
+    margin-left: 20px;
+}
+.cabeçalhoinicial li{ 
+    list-style-type: none;
+    margin: 0px; 
+}
+.cabeçalhoinicial li a{
+    width: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgb(241, 238, 238);
+    font-size: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.cabeçalhoinicial li a:hover{
+    background-color: red;
+}
+
+
+
+.cabeçalhoinicial ul{
+    display: none;
+    position: absolute;
+}
+.cabeçalhoinicial li:hover ul{
+    display: block;
+}
+.login{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+}
+.login li{ 
+            margin-top: -5px;
+
+}
+.login li input{
+    width: 105px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    font-size: 10px;
+}
+.login li input#entrar,
+.login li input#cancelar{
+    background-color: aqua;
+    font-weight: 900;
+
+}
+.login li input#name{
+    margin-top: 10px;
+}
+#entrar, #cancelar{
+    width: 105px;
+}
+input:focus, textarea:focus{
+    outline-color: aqua;
+}
+textarea{
+    margin-top: 5px;
+    resize:none;
+    width: 105px;
+    height: 20px;
+}
+#container{ 
+      
+    background-color:black;
+    width: 100%;
+    height: 140px;
+}
+.bemvindo{
+    position: relative;
+    top: -80px;
+    text-align: center; 
+    font-size: 10px;
+}
+#container2{
+   background-color: azure;
+    width: 100%;
+}
+span#nome{
+    color: white;
+}
+.titulopagina{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(39, 39, 39);
+    padding: 5px;
+}
+.nomepersonagens{
+    font-size: 14px;
+}
+.nomepersonagens img{
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px; 
+}
+
+
+.instagram img,
+.twitter img,
+.facebook img{
+    height:40px;
+
+}
+.whatsapp img,
+.telefone img,
+.torpedo img{
+    height: 40px;
+}
+.instagram, 
+.twitter,
+.facebook{
+    display: inline;
+
+}
+.whatsapp,
+.telefone,
+.torpedo{
+    display: inline;
+
+}
+.redes{
+    margin-bottom: 40px;
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+
+.faleconosco{
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.direitos{
+    margin-top: 8px;
+}
+.direitos li{
+    margin-top: 20px;
+}

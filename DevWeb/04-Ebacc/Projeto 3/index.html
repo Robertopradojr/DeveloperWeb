@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>História</title>
+    <style>
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        flex-direction: column;
+    }
+    form{
+        margin-bottom: 0px;
+    }
+    .cabeçalho img{ height: 40px;
+                    position: relative;
+                    top: 54px;
+                    right: 50px;
+    }
+    .cabeçalho{
+        margin-bottom: 20px;
+    }
+    #adicionar{
+        background-color: green;
+        color: white;
+        font-weight: 900;
+    }
+    .container2{
+        margin-top:30px ;
+       align-items: center;
+  
+    }
+    table{
+       position: relative;
+       left: 30%;
+    }
+    table tr th{
+        
+        padding: 0px 75px 0px 75;
+        padding-bottom:10px ;
+        border-bottom: 1px solid black;
+    }
+    table tr td{
+        padding: 0px 75px 0px 75px;
+        font-size: 15px;
+    }
+    th{
+        text-align: center;
+    }
+    .imagemaprovado img{
+        height: 20px;
+    }
+    .listaprincipal td{
+        padding-bottom: 20px;
+    }
+    .imagemreprovado img{
+        height: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="cabeçalho">
+            <img src="./images/logo.png"><h2>Calculador de Médias</h2>
+
+        </div>
+        <form id="formulario">
+        <input type="text" id="nomeatividade" placeholder="Nome da Atividade" required>
+        <input type="number" id="nota" required placeholder="Nota da atividade" min="0" max="10">
+        <button type="submit" id="adicionar">Adicionar A+</button>
+        </form>
+    </div>
+    <div class="container2"> 
+       <table id="resultados">
+        <tr >
+			<th>Nome da Atividade </th>
+			<th>Nota </th>
+			<th>Aprovado?</th>
+        <tr class="listaprincipal">
+            <td>Media Final </td>
+            <td id="medianota">--</td>
+            <td id="resultadodamedia">--</td>
+
+       </table>
+    </div>
+    <script>
+        const notas = []
+        
+
+        const formulario= document.querySelector('form#formulario')
+        function nota(valor){
+            let z = valor<=6.99
+            return z;
+        }
+        
+        formulario.addEventListener('submit', function(e) {
+			e.preventDefault();
+            let notass = document.getElementById('nota').value
+            notass = parseFloat(notass)
+            notas.push(notass)
+            let nomeatividade = document.getElementById('nomeatividade').value
+            if (!nota(notass)){
+                let resultados = document.getElementById('resultados')  
+                resultados.innerHTML+= `
+                <tr>
+                    <td>${nomeatividade}</td>
+                    <td>${notass}</td>
+                    <td class = "imagemaprovado"><img src="./images/aprovado.png"</td>
+                </tr>`             
+            }
+            else{   
+                let resultados = document.getElementById('resultados')
+                resultados.innerHTML+= `
+                <tr>
+                    <td>${nomeatividade}</td>
+                    <td>${notass}</td>
+                    <td class = "imagemreprovado"><img src="./images/reprovado.png"</td>
+                </tr>`
+            }
+            atualizarMediaFinal()
+        })
+        
+        function atualizarMediaFinal(){
+            let somadasNotas = 0;
+            let quantidadedeitens = 0;
+            for (i=0;i<notas.length;i++){
+                somadasNotas +=notas[i]
+                quantidadedeitens+= 1
+                console.log(quantidadedeitens)
+            }
+            let media = somadasNotas/quantidadedeitens
+            let z = document.getElementById('medianota')
+            z.innerHTML = media
+            if (media>=7){
+                let p = document.getElementById('resultadodamedia')
+                p.innerHTML ='Aprovado'
+                p.style= 'background:green;color:white'
+            }
+            else{
+                let d = document.getElementById('resultadodamedia')
+                d.innerHTML ='Reprovado'
+                d.style= 'background:red;color:white'
+            }
+
+            
+        }
+
+
+
+    </script>
+
+</body>
+</html> 

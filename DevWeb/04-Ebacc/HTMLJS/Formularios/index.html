@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Index</title>
+    <style>
+        input{
+            margin: 0px 0px 0px 40px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button style="width: 100px;height:100px" id="butao" type="button" onclick="oi" ></button>
+    <form>      
+        <input type="text" id="nome" required placeholder="digite seu email"> 
+        <input type="number" id="valor" required placeholder="digitevalor"> 
+        <input type="password" id="senha" required placeholder="digite sua senha">
+        <input type="submit" value="enter" id="logar">
+    </form>   
+  
+    <script>
+        function oi(){
+            let s = document.querySelector('input#nome')
+            let z = s.value.split(' ').length
+            if (z<2){
+                let i = document.querySelector('input#logar').disabled = true
+            }
+        }
+       
+        
+       //s = document.querySelector('input#nome')
+        //s.value.split(' ').length <3
+        //document.getElementById('logar').disabled = true
+        //function seleciodado(){
+           // document.getElementById('logar').disabled = s.value.split(' ').length < 3 //desabilita um botão caso a sentença seja true.
+        //}
+    </script>
+
+</body>
+</html> 
