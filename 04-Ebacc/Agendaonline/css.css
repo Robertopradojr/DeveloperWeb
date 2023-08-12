@@ -20,6 +20,7 @@ body,button,input{
     top: 40%;
 }
 .container2{
+    position: relative;
     width: 95%;
     display: flex;
     align-items: center;
@@ -115,3 +116,7 @@ button img{
     text-decoration: none;
 }
 .ola{text-align: right;}
+.absoluto{
+    position: absolute;
+    width: 40%;
+}

@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    console.log(document.querySelector('header button'));
-    console.log($('header button'))
 
     document.querySelector('header button').addEventListener('click', function(){
     })
@@ -10,10 +8,21 @@ $(document).ready(function(){
     })
     $('#Cancelar').click(function(){
         $('form').slideUp();
-})
-})
-   /* $('form').on('submit', function(e){
+    })
+
+    $('form').on('submit', function(e){
         e.preventDefault();
+        const endereçodaimagem = $('#foto').val();
+        const novoItem = $('<li style="display:none"></li')
+        $(`<img src=" ${endereçodaimagem}">`).appendTo(novoItem);
+        $(`<div class ="overlay">
+                <a href="${endereçodaimagem}" target="_blank"> <!--para abrir algo em outra guia-->
+                    Ver imagem em tamanho real
+                </a>
+            
+            </div>`).appendTo(novoItem);
+            $(novoItem).appendTo('ul');
+            $(novoItem).fadeIn(3000);
+            $('#foto').val('')
     })
 })
-*/
