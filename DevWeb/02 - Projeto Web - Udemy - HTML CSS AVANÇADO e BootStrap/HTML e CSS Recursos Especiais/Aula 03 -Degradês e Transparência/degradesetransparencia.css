@@ -1,9 +1,0 @@
-#caixa1 {height:200px;
-		width:400px;
-		background-color: pink;
-		/*background:linear-gradient(to left,red, green);*/
-		background:radial-gradient(red,green,yellow);
-
-		}
-body{margin: 0px}
-

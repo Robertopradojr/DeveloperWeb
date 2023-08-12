@@ -62,11 +62,11 @@ button{
 
 ul{
     margin-top: 60px;
-    width: 1000px;
-    position: relative;
-    left: 27%;
+    width: 100%;
+
 }
 ul li{
+    color: red;
     text-decoration: none;
     list-style-type: none;    
 }
@@ -79,11 +79,7 @@ ul li{
     width: 20%;
 }
 
-li a{
-    color: red;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 20px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
+.riscado{
+    text-decoration: line-through;
+    color: green;
 }
