@@ -66,6 +66,8 @@ ul{
 
 }
 ul li{
+    font-size: 25px;
+    cursor: pointer;
     color: red;
     text-decoration: none;
     list-style-type: none;    
