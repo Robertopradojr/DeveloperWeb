@@ -25,6 +25,7 @@ header > .container{
 nav{
     background-color: black;
     padding: 16px 0;
+    display: none;
 }
 
 
@@ -42,6 +43,7 @@ nav li a{
 }
 .menuhamburguer{
     width: 32px;
+    cursor: pointer;
 }
 .menuhamburguer span{
     width: 100%;
@@ -49,4 +51,34 @@ nav li a{
     background-color: white;
     display: block;
     margin-bottom: 4px;
+}
+#carrosel button{
+    display: none;
+    
+}
+
+html{
+    overflow-x: hidden;
+    
+}
+.formcampo{
+    margin-bottom: 16px;
+}
+.formcampo label{
+    font-weight: bold;
+    display: block;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+
+
+section{
+    margin-left: 50px;
+}
+
+#contatos{
+    position: relative;
+    top: 1000px;
 }
