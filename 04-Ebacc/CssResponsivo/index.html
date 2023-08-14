@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=yes,maximum-scale=1, minimun-scale=0.5 ">
+	<title>CssResponsivo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            background-color: yellow;
+            height: 200px;
+            width: 300px;
+            margin: 16px 20px;
+        }
+        img{
+            margin-left: 20px;
+            max-width: 300px;
+            display: block;
+        }
+
+        body{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            column-gap: 1%; /*para margim nos lados*/
+            row-gap: 5%; /*para margim em baixo*/
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    <h1>Exemplos</h1>
+    <picture>
+        <source media="(min-width:1200px)" srcset="https://pm1.aminoapps.com/7018/ce37e6f99df53b563e9d97b3abc45df62dc095car1-886-1019v2_hq.jpg">
+        <source media="(min-width:600px)" srcset="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027-1024x683.jpg">
+        <img src="https://pm1.aminoapps.com/7018/ce37e6f99df53b563e9d97b3abc45df62dc095car1-886-1019v2_hq.jpg">
+    </picture>
+    <div>
+
+    </div>
+   
+
+
+
+
+</body>
+</html> 
