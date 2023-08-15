@@ -6,8 +6,7 @@
 
 
 #sobre{
-    font-family: 'Times New Roman', Times, serif;
-    background-color:#fbc3d2    
+    font-family: 'Times New Roman', Times, serif;  
 }
 
 header{
@@ -96,7 +95,8 @@ ul{
 
 form{
     position: absolute;
-    top:0;
+    top:6px;
+    left: 10px;
     background-image: url('./arcoiris.jpg');
     background-size: cover;
     display: flex;
@@ -133,11 +133,7 @@ div button{
     margin-top: 20px;
 
 }
-#container{
-    margin-top: 40px; 
-    display: grid;
-    grid-template-columns: 60% 25%;
-}
+
 .imagem{
     width: 90%;
 
@@ -168,3 +164,19 @@ p a{
     cursor: pointer;
 }
 
+
+@media (min-width:1201px){
+    #container{
+            margin-top: 40px; 
+            display: grid;
+            grid-template-columns: 60% 25%;
+        }
+    }
+
+@media (max-width:1200px){
+    #container{
+            margin-top: 40px; 
+            display: block;
+            margin-left: 20px;
+}
+    }

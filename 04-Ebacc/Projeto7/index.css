@@ -1,0 +1,49 @@
+body,button,input{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.produto1{
+    width: 100%;
+}
+.produto1 img{
+    width: 80%;
+}
+.nomeproduto{
+    text-align: center;
+}
+#comprar,#adicionar{
+    display: block;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: rgb(241, 99, 123);
+    color: white;
+}
+.descrição{
+    text-align: center;
+}
+@media (min-width:1201px){
+    .container{
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            
+     
+        }
+    }
+
+@media (max-width:1200px){
+    .container{
+            margin-top: 100px; 
+            display: grid;
+            grid-template-columns: 50% 50%;
+}
+    header{
+        position:fixed;
+        top:0;
+        width: 100%;
+    }
+    }
