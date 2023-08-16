@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BootStrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    
+    <style>
+        table{
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Olá Mundo </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8 g-0"><!--sm para celular lg dispositivo acima de 992px g tira o padding padrao-->
+                <h2>Hello World </h2>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <h2>Olá Mundo!</h2>
+            </div>
+            <div class="col-sm-12 col-lg-8" >
+                #coluna3
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                #coluna4
+            </div>
+            <div class="col-sm-12 col-lg-8">
+                #coluna5
+            </div>
+            
+        </div>
+
+    </div>
+    <!--atalho .container>.row>.col*5>img+h3 container vai ter filho row(linha) também 5 colunas as colunas filho img e h3-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://via.placeholder.com/180x180" alt="">
+                <h3>Produto</h3>
+            </div>
+            <div class="col">
+                <img src="https://via.placeholder.com/180x180" alt="">
+                <h3>Produto</h3>
+            </div>
+            <div class="col">
+                <img src="https://via.placeholder.com/180x180" alt="">
+                <h3>Produto</h3>
+            </div>
+            <div class="col">
+                <img src="https://via.placeholder.com/180x180" alt="">
+                <h3>Produto</h3>
+            </div>
+            <div class="col">
+                <img src="https://via.placeholder.com/180x180" alt="">
+                <h3>Produto</h3>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="display-1">Olá</h1>
+    <p class="h4">Olá</p>
+    <mark>Olá</mark> MUndo
+    <table class="table table-primary">
+        <caption>Tabela de PRodutos</caption>
+        <thead>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>PreçoAtual</th>
+        </thead>
+        <tbody>
+            <tr>
+                <Td>Iphone3</Td>
+                <td>7000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <Td>Iphone3</Td>
+                <td>7000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <Td>Iphone3</Td>
+                <td>7000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <Td>Iphone3</Td>
+                <td>7000</td>
+                <td>4000</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <button class="btn btn-primary">Clique aqui</button>
+    <button class="btn btn-secondary">Clique aqui</button>
+    <button class="btn btn-success">Clique aqui</button>
+    <button class="btn btn-danger">Clique aqui</button>
+    <button class="btn btn-warning">Clique aqui</button>
+    <button class="btn btn-info">Clique aqui</button>
+    <button class="btn btn-light">Clique aqui</button>
+    <button class="btn btn-dark">Clique aqui</button>
+    <button class="btn btn-link">Clique aqui</button>
+
+
+    <div class="accordion"> <!--Deixa o fundo azul e com seta-->
+        <div class="accordion-item"> 
+            <div class="accordion-header">
+                <button class="accordion-button"data-bs-toggle="collapse" data-bs-target="#resposta1">
+                    Pergunta
+                </button>
+            </div>
+            <div class="accordion-collapse collapse show"> <!--show significa começar aberto-->
+                <div id="resposta1" class="accordion-body">
+                    Resposta da Pergunta
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item"> 
+            <div class="accordion-header">
+                <button class="accordion-button"data-bs-toggle="collapse" data-bs-target="#resposta2">
+                    Pergunta2
+                </button>
+            </div>
+            <div class="accordion-collapse collapse show">
+                <div id="resposta2" class="accordion-body">
+                    Resposta da Pergunta2
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn-primary" data-bs-toggle="collapse" data-bs-target="#preço">
+        Clique Aqui
+    </button>
+    <div id="preço" class="collapse collapse-horizontal"> <!-- collpase horizontal é ele aparecendo na horizontal apenas collpase é na vertical-->
+        <p>
+        2,0000
+        </p>
+    </div>
+    <div class="alert alert-info"> <!--para alertar customizados-->
+        <button class="btn-close" data-bs-dismiss ="alert"></button><!--para fechar a div ela exclui do dom na verdade ate ser atualizada-->
+        <p>Para saber mais informações consulte a tabela inferior!</p>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
