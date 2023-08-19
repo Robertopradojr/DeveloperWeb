@@ -1,0 +1,64 @@
+.imagem{
+    height: 130px;
+}
+
+header{
+    background-color:#ec0404;
+
+}
+
+.nav-link{
+    color: #fbca04;
+
+}
+.nav .nav-link.active{
+    color:#ec0404;
+    background-color:#fbca04 ;
+}
+.nav-link:hover{
+    color: #f0e0a2 ;
+
+}
+.navbar-toggler-icon{
+    width: 25px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.imagem1{
+    height: 550px;
+    max-height:550px;
+    width: 100vw;
+}
+button a{
+    text-decoration: none;
+    color:#fbca04;
+ 
+}
+.comprar{
+    background-color: #ec0404;
+}
+.imagemcompra{
+    max-height: 180px;
+    margin-top: 40px;
+}
+
+.margem{
+    margin-top: 350px;
+    margin-bottom: 70px;
+}
+.margi{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width:1200px){
+    .col-sd-12-margems{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

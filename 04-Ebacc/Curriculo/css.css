@@ -1,0 +1,42 @@
+.geral{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width:300px;
+}
+.container2{
+    position: relative;
+    width: 300px;
+    height: 967px;
+    top:100px
+}
+
+.nome{
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.link{
+    font-size: 12px;
+    margin-top: 0px;
+}
+.projeto{
+    margin-bottom: 0px;
+}
+li{
+    margin-bottom: 8px;
+}
+strong{
+    font-size: 15px;
+}
+
+h3{
+    font-size: 23px;
+}

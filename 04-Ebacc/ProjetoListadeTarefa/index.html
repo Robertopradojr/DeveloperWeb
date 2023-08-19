@@ -4,28 +4,29 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jquery</title>
+    <link rel="stylesheet" href="cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
     <link rel="stylesheet" href="css.css">
-
 </head>
 <body>
     <header>
         <h2>Lista de Tarefas</h2>
     </header>
-    <div class="containerpai">
-        <div class="imagem">        
-            <img src="listas-de-tarefas-significado-1024x576.jpeg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-sd-12 center">       
+                <img class="img" src="listas-de-tarefas-significado-1024x576.jpeg">
+            </div>        
+            <div class="col-lg-8 col-sd-12">
+                <form>
+                    <input type="text" id="conteudo" required placeholder="Digite aqui a tarefa" class="form-control form-control-lg">
+                    <button type="submit" id="adicionartarefa" class="btn btn-success">Adicionar+</button>
+                    <button type="reset" id="resetar" class="btn btn-danger">Cancelar</button>
+                </form>
+                <ul>
+                </ul>
+            </div>   
         </div>
-        <div class="container">
-            <form>
-                <input type="text" id="conteudo" required placeholder="Digite aqui a tarefa">
-                <button type="submit" id="adicionartarefa">Adicionar+</button>
-                <button type="reset" id="resetar">Cancelar</button>
-            </form>
-            <ul>
-            </ul>
-        </div>   
     </div>
-
 
 
 
