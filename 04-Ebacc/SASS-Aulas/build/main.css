@@ -1,0 +1,33 @@
+.produtos {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+}
+header h2 {
+  color: white;
+}
+
+button {
+  background-color: red;
+}
+button.sucesso {
+  background-color: green;
+}
+button:hover {
+  background-color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=main.css.map */
