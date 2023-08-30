@@ -1,0 +1,41 @@
+Para iniciar nosso projeto abriremos o terminal no VSCode e digitaremos:
+npm init -y (com o -y ele da yes pra tudo e inicia o projeto mais rápido)
+Após isso iremos baixar nosso pacote SASS no nosso ambiente de desenvolvimento e adiciona-lo a parte de scripts dentro do package.json
+Para baixar utilizamos npm i --save-dev sass
+Com isso trará a pasta node_modules que é onde ficam todas as dependências e suas dependências
+Então criaremos o arquivo .gitignore para quando fomos commitar este projeto a pasta node_modules não venha junto por ser muito pesada, então basta adicionar o nome da pasta ou arquivo dentro do .gitignore
+Por último iremos dar um npm run sass para rodar o sass, porém quando fizermos isso precisamos informar quem é o input e o output, ou seja, quem é o arquivo de entrada e quem é o de saída (aquela parada do pré-processador)
+npm run sass main.scss main.css (agora irá funcionar)
+Depois que fizermos isso irá aparecer um arquivo a mais que tem a extensão .map, ela é quem indica o caminho das alterações feitas, então quando fomos olhar no devtools irá dar o caminho do main.scc e não do main.css e quem faz isso é este arquivinho com a extensão .map
+
+
+Agora um resuminho de cada arquivo do nosso projeto ⬇️
+
+
+
+A pasta node_modules contém todas as dependências instaladas para o seu projeto.
+
+
+
+
+
+gitignore é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto.
+
+
+
+
+
+É um arquivo de mapeamento 
+
+
+
+
+
+O objetivo dele é descrever as características das dependências usadas no projeto. Versão, subdependências, links de verificação de integridade, dentre outras coisas.
+
+
+
+
+
+Aqui ficam as configurações do nosso projeto, nossas dependências entre outras coisas
+
